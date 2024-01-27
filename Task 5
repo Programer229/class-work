@@ -15,3 +15,24 @@ for ( let i = 0; i < peoples.length; i++) {
 console.log("------");
     
 }
+
+//const animals =["Собака", "Кошка", "Свинья","Корова", ];
+//for ( const animal in animals) {
+//  
+ //       console.log(animal);
+//}
+//let students = { name: "Harry", age: 30, cource: 4} ;
+//for (let students in students){
+//    console.log(students, students[students]);
+//}
+const personArray = [
+    {name: "Tom", age: 18, hobies:"гулять", course:2, favorite_subject:"Английский", type:"Бюджетник", studentsID:3 } 
+    {name: "Bob", age: 17, hobies:"есть", course:1, favorite_subject:"Русский", type:"Платник", studentsID:7}  
+    {name: "Stan", age: 20, hobies:"читать", course:4, favorite_subject:"Мдк", type:"Бюджетник", studentsID:4} 
+    {name: "Robert", age:18, hobies:"спорт", course:3, favorite_subject:"История", type:"Бюджетник", studentsID:1} 
+] ;
+for(let person of personArray){
+    for( let key in person){
+        console.log(key + ":" + person[key]);
+    }
+}
