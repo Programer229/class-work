@@ -1,0 +1,17 @@
+// const peoples =["Tom", "Vova", "sam", "bob", "Nat", "Ivan",  ];
+//console.log(peoples);
+ //   for ( let i = 0; i < peoples.length; i++){
+//        let result = peoples [i];
+//        console.log(result)
+//        {
+
+
+const peoples =[["Tom", "Чарлз", "ул. комсомольская", 39] ["Bob", "Габриел ", "ул. симонова", 18], ["sten", "Гавермел","ул. комсомольская",  17] ["Den", "Чарлз", "ул. московская ", 33]];
+for ( let i = 0; i < peoples.length; i++) {
+    for ( let j = 0; j < peoples[i].length; j++){
+        let result = peoples [i][j];
+        console.log(result)
+    }
+console.log("------");
+    
+}
